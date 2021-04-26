@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{QfWi:function(t,o,n){const{setTimeout:e}=n("jXty"),a=["#FFFFFF","#2196F3","#4CAF50","#FF9800","#009688","#795548"],c={openBtn:document.querySelector("button[data-action=start]"),closeBtn:document.querySelector("button[data-action=stop]")},i=(t,o)=>Math.floor(Math.random(a)*(o-t+1)+t);function s(t){e(i(),1e3)}c.openBtn.addEventListener(s),console.log(s())}},[["QfWi",1,2]]]);
+//# sourceMappingURL=main.7fbd28e5615ba80f89c1.js.map
