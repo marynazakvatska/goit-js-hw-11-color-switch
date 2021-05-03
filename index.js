@@ -28,12 +28,12 @@ const randomIntegerFromInterval = (min, max) => {
 };
 
 const setRandomColor = () => {
-  const _color = colors[randomIntegerFromInterval(0, colors.length - 1)];
-  console.log(_color);
-  document.body.style.backgroundColor = _color;
+  const color = colors[randomIntegerFromInterval(0, colors.length - 1)];
+  console.log(color);
+  document.body.style.backgroundColor = color;
 };
 
-let intervalId = undefined;
+let intervalId = null;
 
 refs.openBtn.addEventListener(
   "click",
